@@ -62,9 +62,9 @@ The main goals of these lab modules are:
    perl /usr/share/john/pdf2john.pl "My Locked PDF1.pdf" > hash.txt
    ```
 2. **Password Cracking:** Executed John the Ripper against the extracted hash using default dictionaries:
-   
+   ```bash
    john hash.txt
-   
+     ```
 3. **Result Verification:** Successfully recovered the plaintext password and utilized the `--show` flag to retrieve results from the local potfile.
 
 ### **Module 2: Browser-Based Utility Workflow (Networkwalks Tools)**
