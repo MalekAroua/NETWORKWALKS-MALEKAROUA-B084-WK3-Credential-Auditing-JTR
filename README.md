@@ -23,7 +23,7 @@ This project documents the practical labs completed during Week 3 of the Network
 
 The modules explore how password-protected files secure sensitive information, how hashes are extracted using parsing utilities, and how dictionary attacks expose the risks associated with weak user credentials.
 
-📥 **Practice File:** You can download the sample locked PDF directly from this repository: [Download My Locked PDF1.pdf](./My Locked PDF1.pdf), [Download My Locked PDF2.pdf](./My Locked PDF2.pdf), [Download My Locked PDF3.pdf](./My Locked PDF3.pdf) and [Download My Locked PDF3.pdf](./My Locked PDF3.pdf)
+## 📥 Practice File: You can download the sample locked PDF directly from this repository: [Download My Locked PDF1.pdf], [Download My Locked PDF2.pdf], [Download My Locked PDF3.pdf] and [Download My Locked PDF3.pdf]
 
 ---
 
