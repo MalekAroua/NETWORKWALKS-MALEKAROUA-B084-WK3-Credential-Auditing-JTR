@@ -35,7 +35,7 @@ You can download the sample locked PDF directly from this repository: [Download 
 ## 🎯 Objectives
 
 The main goals of these lab modules are:
-- Understand the fundamental differences between **encryption** (two-way) and **hashing** (one-way cryptographic functions)[cite: 8].
+- Understand the fundamental differences between **encryption** (two-way) and **hashing** (one-way cryptographic functions).
 - Perform native command-line hash extraction using Perl scripts (`pdf2john.pl`) on Kali Linux
 - Execute offline dictionary attacks using **John the Ripper** and manage local session potfiles (`john.pot`).
 - Utilize browser-based web utility tools (**Networkwalks Hash Calculator** and **Password Cracker**) for rapid credential analysis.
@@ -77,7 +77,9 @@ The main goals of these lab modules are:
 
 ## 🐞 Key Technical Insights & Troubleshooting
 
-- **Potfile Management (`john.pot`):** Once John the Ripper successfully cracks a hash, it stores the result in a local history file. Subsequent attempts to run `john hash.txt` will result in a "No password hashes left to crack" prompt, requiring the `--show` flag (`john --show hash.txt`) to review previous recoveries.
+- **Potfile Management (`john.pot`):** Once John the Ripper successfully cracks a hash, it stores the result in a local history file.
+
+Subsequent attempts to run `john hash.txt` will result in a "No password hashes left to crack" prompt, requiring the `--show` flag (`john --show hash.txt`) to review previous recoveries.
 
 ---
 
