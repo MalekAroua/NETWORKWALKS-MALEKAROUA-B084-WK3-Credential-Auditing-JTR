@@ -65,13 +65,13 @@ The main goals of these lab modules are:
    ```bash
    john hash.txt
    ```
-3. **Result Verification:** Successfully recovered the plaintext password **`good-luck`** and utilized the `--show` flag to retrieve results from the local potfile.
+3. **Result Verification:** Successfully recovered the plaintext password and utilized the `--show` flag to retrieve results from the local potfile.
 
 ### **Module 2: Browser-Based Utility Workflow (Networkwalks Tools)**
 1. **Accessing Hash Calculator:** Opened the [Networkwalks Hash Calculator](https://networkwalks.com/hash-calculator/) tool directly in the web browser.
 2. **Hash Extraction:** Uploaded the encrypted `My Locked PDF1.pdf` file into the browser utility to locally parse the file and extract the complete `$pdf$` hash.
 3. **Accessing Password Cracker:** Opened the [Networkwalks Password Cracker](https://networkwalks.com/password-cracker/) dictionary attack tool.
-4. **Executing Attack & Verification:** Pasted the copied `$pdf$` hash into the cracker, selected the built-in wordlist (100 passwords), and ran the dictionary attack to successfully uncover the plaintext password (`password1`).
+4. **Executing Attack & Verification:** Pasted the copied `$pdf$` hash into the cracker, selected the built-in wordlist (100 passwords), and ran the dictionary attack to successfully uncover the plaintext password.
 
 ---
 
